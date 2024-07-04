@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+body {
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.inner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 img {
+    width: 275px;
+}
+
+header h1 a {
+    display: inline-block;
+}
+
+header ul li {
+    color: #6C757D;
+    text-align: left;
+    line-height: 1.5px;
+}
+
+header ul li h2 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 28px;
+}
+
+header ul li p {
+    margin: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header ul li a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin-bottom: 26px;
+    background-color: #6C757D;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background-color: #5a6268;
+    ;
+}
+
+nav {
+    background-color: #343A40;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 1110px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: rgba(255, 255, 255, .5);
+    padding:0 35px;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+.mainvisual {
+    height: 600px;
+    background-image: url(images/top-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text-container {
+    height: 300px;
+    width: 560px;
+    border: solid 1px #DFDFDF;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+
+
+.text-container h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.text-container h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.text-container p {
+    font-size: 15px;
+    border-top: solid 1px #DFDFDF;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
